@@ -5,7 +5,8 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 #main app
-add_excutable(
+add_executable(
     bodnn
     src/main.cpp
+    src/Neuron.cpp
 )
