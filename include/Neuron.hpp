@@ -1,10 +1,14 @@
 #ifndef _NEURON_HPP_
 #define _NEURON_HPP_
-
+#include<iostream>
+#include <math.h>
+using namespace std;
 class Neuron
 {
 public:
     Neuron(double val);
+
+    void setVal(double v);
     //Sigmoid激活函数
     //f(x)=x/(1+|x|)
     void activate();
